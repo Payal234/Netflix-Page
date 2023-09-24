@@ -1,0 +1,86 @@
+ /* Reset some default styles for consistency */
+body, ul {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+.logo img {
+    width: 35vh;
+    size: 200px;
+    height:15vh;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('N.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 200px 0;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-button button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Featured Content Styles */
+.featured {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.card img {
+    max-width: 100%;
+    margin-top:0;
+    height: 60vh;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 20px 0;
+}
